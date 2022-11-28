@@ -1,3 +1,13 @@
+Example:
+
+const fs= require('fs');
+fs.writeFileSync('newfile.js','A new file has been created on the current folder.');
+----------------------------
+
+
+
+
+-----------------------
 FS Module (file System):
 
 The Node.js file system module allows you to work with the file system on your computer.
@@ -5,6 +15,9 @@ To include the File System module, use the require() method:
 
 var fs = require('fs');
 
+
+
+-----------------------
 Common use for the File System module:
 Read files
 Create files
@@ -16,7 +29,3 @@ Rename files
 
 
 
-Example:
-
-const fs= require('fs');
-fs.writeFileSync('newfile.js','A new file has been created on the current folder.');
