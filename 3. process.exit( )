@@ -1,0 +1,40 @@
+Example:
+
+const http=require('http');
+const server= http.createServer((req,res)=>{
+    console.log(req);
+    process.exit();
+});
+server.listen(3000);
+---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to exit process in Node.js ?
+
+1. Using process.exit() Function: 
+This function tells Node.js to end the process which is running at the same time with an exit code. 
+By calling this function Node.js will force the current process that’s running to exit as soon as possible.
+
+2. Using ctrl+C key: 
+When running a program of NodeJS in the console, you can close it with ctrl+C directly from the console.
+
+
+
+
+
+
+
